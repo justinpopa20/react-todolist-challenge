@@ -1,0 +1,20 @@
+{
+  "todolist": [
+    {
+      "text": "Extract helper functions",
+      "id": 1
+    },
+    {
+      "text": "Add todo item status",
+      "id": 2
+    },
+    {
+      "text": "Choose pikachu",
+      "id": 3
+    },
+    {
+      "text": "Generate hamsters",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render items 1`] = `
+<body>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th
+            width="66%"
+          >
+            Item
+          </th>
+          <th>
+            Actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div
+              class="todo-item"
+              data-testid="todo-item"
+            >
+              <div
+                class="todo-item-content"
+              >
+                Todo 1
+              </div>
+              <div
+                class="todo-item-status"
+              />
+            </div>
+          </td>
+          <td>
+            <button
+              class="button edit"
+              data-testid="edit-btn"
+            >
+              Edit
+            </button>
+            <button
+              class="button delete"
+              data-testid="delete-btn"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div
+              class="todo-item"
+              data-testid="todo-item"
+            >
+              <div
+                class="todo-item-content"
+              >
+                Todo 2
+              </div>
+              <div
+                class="todo-item-status"
+              />
+            </div>
+          </td>
+          <td>
+            <button
+              class="button edit"
+              data-testid="edit-btn"
+            >
+              Edit
+            </button>
+            <button
+              class="button delete"
+              data-testid="delete-btn"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+`;

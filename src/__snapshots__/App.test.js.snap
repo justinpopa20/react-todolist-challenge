@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render - smoke test 1`] = `
+<body>
+  <div>
+    <div
+      class="container"
+    >
+      <h1>
+        Todo List
+      </h1>
+      <div
+        class="add-item-to-list"
+      >
+        <input
+          type="text"
+          name="item"
+          placeholder="New Item..."
+          data-testid="add-input"
+          value=""
+        />
+        <button
+          class="button add"
+          data-testid="add-btn"
+        >
+          Add
+        </button>
+      </div>
+      <div
+        class="error-container"
+      />
+      <table>
+        <thead>
+          <tr>
+            <th
+              width="66%"
+            >
+              Item
+            </th>
+            <th>
+              Actions
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Loading...
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+`;
